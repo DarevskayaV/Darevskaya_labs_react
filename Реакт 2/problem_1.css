@@ -1,0 +1,28 @@
+.clock-container {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .clock-display {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  .clock-info {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .clock-title {
+    color: #444;
+    margin-bottom: 15px;
+  }

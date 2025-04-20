@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .app-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .profession-selector {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .profession-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .profession-option {
+    padding: 10px 15px;
+    background: #e0e0e0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .profession-option:hover {
+    background: #d0d0d0;
+  }
+  
+  .profession-option.selected {
+    background: #4CAF50;
+    color: white;
+  }
+  
+  .job-menu {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .menu-header {
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+    font-size: 1.2em;
+  }
+  
+  .menu-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-link {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    transition: background 0.3s;
+  }
+  
+  .menu-link:last-child {
+    border-bottom: none;
+  }
+  
+  .menu-link:hover {
+    background: #f0f0f0;
+  }
+  
+  .menu-link a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .menu-link a:hover {
+    color: #4CAF50;
+  }
+  
+  .menu-description {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+  }
